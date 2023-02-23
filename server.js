@@ -18,7 +18,9 @@ app.get('/claims', (req, res) => {
     })
 })
 
-
+app.post('/claims', (req,res)=>{
+    console.log(posted);
+})
 app.listen('3000', () => {
     console.log('server is running');
 })
