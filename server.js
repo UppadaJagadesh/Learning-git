@@ -20,6 +20,7 @@ app.get('/claims', (req, res) => {
 
 app.post('/claims', (req,res)=>{
     console.log("Posted the claims");
+    console.log("done");
 })
 
 app.listen('3000', () => {
