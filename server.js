@@ -15,6 +15,7 @@ app.get('/claims', (req, res) => {
     claims.find((err, data) => {
         if (err) res.send(err)
         res.send(data)
+        console.log("d")
     })
 })
 
